@@ -8,7 +8,7 @@ const Card = (props) => {
 			<img src={mobileParfeum} alt="parfeum" className="rounded-t-xl" />
 			<div className="p-[1.5rem]">
 				<h3 className="font-montserrat tracking-[0.2rem] text-[14px] text-darkGrayishBlue">PERFUME</h3>
-				<h1 className="font-fraunces text-3xl py-2">Gabrielle Essence Eau De Parfum</h1>
+				<h1 className="font-fraunces text-3xl py-2 text-veryDarkBlue">Gabrielle Essence Eau De Parfum</h1>
 				<p className="font-montserrat text-[14px] font-bold text-darkGrayishBlue">
 					A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of
 					CHANEL.
@@ -16,7 +16,7 @@ const Card = (props) => {
 				<p className="text-darkCyan font-fraunces text-3xl relative my-5">
 					$149.99<strike className="text-darkGrayishBlue text-xs ml-4 absolute bottom-2.5">$169.99</strike>
 				</p>
-				<button className="bg-darkCyan rounded-md w-full py-4 text-white font-montserrat font-bold text-sm">
+				<button className="bg-darkCyan rounded-md w-full py-4 text-white font-montserrat font-bold text-sm hover:bg-green-900">
 					<img src={cartSvg} alt="checkout" className="inline-block mr-2" /> Add to Cart
 				</button>
 			</div>
