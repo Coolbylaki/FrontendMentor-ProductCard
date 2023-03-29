@@ -4,7 +4,7 @@ import cartSvg from "../assets/images/icon-cart.svg";
 
 const Card = (props) => {
 	return (
-		<section className="mx-3 my-6 bg-white rounded-xl">
+		<section className="mx-3 my-6 bg-white rounded-xl max-w-[375px]">
 			<img src={mobileParfeum} alt="parfeum" className="rounded-t-xl" />
 			<div className="p-[1.5rem]">
 				<h3 className="font-montserrat tracking-[0.2rem] text-[14px] text-darkGrayishBlue">PERFUME</h3>
