@@ -16,6 +16,9 @@ export default {
 				fraunces: ["Fraunces", "serif"],
 				montserrat: ["Montserrat", "sans-serif"],
 			},
+			screens: {
+				mob: { max: "767px" },
+			},
 		},
 	},
 	plugins: [],
