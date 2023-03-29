@@ -12,6 +12,10 @@ export default {
 				veryDarkBlue: "hsl(212, 21%, 14%)",
 				darkGrayishBlue: "hsl(228, 12%, 48%)",
 			},
+			fontFamily: {
+				fraunces: ["Fraunces", "serif"],
+				montserrat: ["Montserrat", "sans-serif"],
+			},
 		},
 	},
 	plugins: [],
